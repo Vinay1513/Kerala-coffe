@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>RISE COFFEE SHOP</title>
+</head>
+
+<body>
+    <div id="header">
+      
+      
+    <div class="topnav">
+        <a href="#home" class="active">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+       
+      </div>
+      
+    
+      
+      <div id="container">
+        
+        <h1>Ri<span>se</span></h1>
+        <h1>co<span>ffee</span></h1>
+        
+      </div>
+     
+      </div>
+      <h1 style="color:white;font-size:70px;text-align:center">About us</h1>
+      
+
+<main class="container">
+  <marquee>you taste is here</marquee>
+  
+  <section class="card">
+     <img src="coffe4.jpg" alt="sample image">
+      <div class="texts">
+           <h2>bruee coffe</h2>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry </p><br><br>
+          <button type="submit">select</button>
+     </div>
+  </section>
+  <section class="card">
+     <img src="coffe3 .jpg" alt="sample image">
+      <div class="texts">
+           <h2>coffe beans</h2>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p><br><br>
+          <button type="submit">Select.</button>
+     </div>
+  </section>
+  <section class="card">
+     <img src="cofffe8.jpg" alt="sample image">
+      <div class="texts">
+           <h2>speacial coffe</h2>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p><br><br>
+          <button type="submit">Select</button>
+     </div>
+  </section>
+  <section class="card">
+     <img src="coffe9.jpg" alt="sample image">
+      <div class="texts">
+           <h2>cold coffe</h2>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p><br><br>
+          <button type="submit">Select.</button>
+     </div>
+  </section>
+  <section class="card">
+     <img src="coffe6.jpg" alt="sample image">
+      <div class="texts">
+           <h2>Hot coffe</h2>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p><br><br>
+          <button type="submit">select.</button>
+     </div>
+  </section>
+  <section class="card">
+     <img src="coffe7.jpg" alt="sample image">
+      <div class="texts">
+           <h2>customer services</h2>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p><br><br>
+          <button type="submit">Select.</button>
+     </div>
+  </section>
+</main>
+<h1 style="color: rgb(223, 222, 222);font-size:70px;margin-left: 150;text-align: center;">Contact us</h1>
+<p style="color:white;margin-left: 700px;margin-right: 0;margin-top: 200px;font-size: 30px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consequatur a iste earum vel ipsa alias harum unde maxime neque architecto rerum, voluptatem exercitationem aliquid dolor hic nulla blanditiis. Eum?</p>
+<div class="contact">
+  
+
+  <div class="form" id="login">
+    <h1 class="form__title">Contact form</h1>
+    
+    <div class="form__input-group">
+      <label>Name</label>
+     
+     
+      <input type="text" class="form__input"  placeholder="your  name" id="usernameInput"  required>
+     
+    </div>
+    <div class="form__input-group">
+      <label>location</label>
+      <select id="location" name="location">
+        <option value="pune">pune</option>
+        <option value="mumbai">mumbai</option>
+        <option value="goa ">goa</option>
+        <option value="benguluru ">Benguluru</option>
+      </select>
+     
+     
+      <label for="coffe">Coffe do you like</label>
+      <select id="coffe" name="coffe">
+        <option value="capichino">capachino</option>
+        <option value="bruee">bruee</option>
+        <option value="dark ">hot dark coffe</option>
+        <option value="cold ">cold coffe</option>
+      </select><br><br>
+      <textarea placeholder="Comment us"></textarea>
+     
+      <div class="padding"></div>
+      <button style="font-size: 30px;color: white;background-color: rgb(8, 30, 230);width: 210px;height: 50px; border-radius: 30px;">Submit</button>
+    </div>
+  </div>
+
+  
+</div>
+
+
+  
+
+ <div class="shopping"> 
+  <h1>Select coffe you want</h1><br><br>
+ 
+
+  <div id="alerts"></div>
+<div class="productcont">
+       <div class="product">
+           <h3 class="productname">Bruee cofee </h3>
+           <p>Product description excerpt...</p>
+           <p class="price">$5.05</p><br><br>
+           <button class="addtocart">Select</button>
+       </div>
+       <div class="product">
+           <h3 class="productname">hot coffe</h3>
+           <p>Product description excerpt...</p>
+           <p class="price">$8.50</p><br><br>
+           <button class="addtocart">select</button>
+       </div>
+       <div class="product">
+           <h3 class="productname">Cold cofee</h3>
+           <p>Product description excerpt...</p>
+           <p class="price">$10.50</p><br><br>
+           <button class="addtocart">Select</button>
+       </div>
+       </div>
+       <div class="cart-container">
+         <h2>Cart</h2>
+         <table>
+           <thead>
+             <tr>
+             <th><strong>Product</strong></th>
+             <th><strong>Price</strong></th>
+           </tr>
+           </thead>
+           <tbody id="carttable">
+           </tbody>
+         </table>
+         <hr>
+         <table id="carttotals">
+           <tr>
+             <td><strong>Items</strong></td>
+             <td><strong>Total</strong></td>
+           </tr>
+           <tr>
+             <td>x <span id="itemsquantity">0</span></td>
+            
+             <td>$<span id="total">0</span></td>
+           </tr></table>
+
+           
+         <div class="cart-buttons">  
+           <button id="emptycart">Empty Cart</button>
+           <button id="checkout">Checkout</button>
+         </div>
+       </div>
+</div>
+<footer>copywrite 2022@ bruee coffe</footer>
+
+   
+      
+     
+     
+     
+    
+  
+     
+      
+      
+      <script>
+        
+updateCartTotal();
+
+/* button event listeners */
+document.getElementById("emptycart").addEventListener("click", emptyCart);
+var btns = document.getElementsByClassName('addtocart');
+for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener('click', function() {addToCart(this);});
+}
+
+/* ADD TO CART functions */
+S
+function addToCart(elem) {
+    //init
+    var sibs = [];
+    var getprice;
+    var getproductName;
+    var cart = [];
+     var stringCart;
+    //cycles siblings for product info near the add button
+    while(elem = elem.previousSibling) {
+        if (elem.nodeType === 3) continue; // text node
+        if(elem.className == "price"){
+            getprice = elem.innerText;
+        }
+        if (elem.className == "productname") {
+            getproductName = elem.innerText;
+        }
+        sibs.push(elem);
+    }
+    //create product object
+    var product = {
+        productname : getproductName,
+        price : getprice
+    };
+    //convert product data to JSON for storage
+    var stringProduct = JSON.stringify(product);
+    /*send product data to session storage */
+    
+    if(!sessionStorage.getItem('cart')){
+        //append product JSON object to cart array
+        cart.push(stringProduct);
+        //cart to JSON
+        stringCart = JSON.stringify(cart);
+        //create session storage cart item
+        sessionStorage.setItem('cart', stringCart);
+        addedToCart(getproductName);
+        updateCartTotal();
+    }
+    else {
+        //get existing cart data from storage and convert back into array
+       cart = JSON.parse(sessionStorage.getItem('cart'));
+        //append new product JSON object
+        cart.push(stringProduct);
+        //cart back to JSON
+        stringCart = JSON.stringify(cart);
+        //overwrite cart data in sessionstorage 
+        sessionStorage.setItem('cart', stringCart);
+        addedToCart(getproductName);
+        updateCartTotal();
+    }
+}
+/* Calculate Cart Total */
+function updateCartTotal(){
+    //init
+    var total = 0;
+    var price = 0;
+    var items = 0;
+    var productname = "";
+    var carttable = "";
+    if(sessionStorage.getItem('cart')) {
+        //get cart data & parse to array
+        var cart = JSON.parse(sessionStorage.getItem('cart'));
+        //get no of items in cart 
+        items = cart.length;
+        //loop over cart array
+        for (var i = 0; i < items; i++){
+            //convert each JSON product in array back into object
+            var x = JSON.parse(cart[i]);
+            //get property value of price
+            price = parseFloat(x.price.split('$')[1]);
+            productname = x.productname;
+            //add price to total
+            carttable += "<tr><td>" + productname + "</td><td>$" + price.toFixed(2) + "</td></tr>";
+            total += price;
+        }
+        
+    }
+    //update total on website HTML
+    document.getElementById("total").innerHTML = total.toFixed(2);
+    //insert saved products to cart table
+    document.getElementById("carttable").innerHTML = carttable;
+    //update items in cart on website HTML
+    document.getElementById("itemsquantity").innerHTML = items;
+}
+//user feedback on successful add
+function addedToCart(pname) {
+  var message = pname + " is add to your cart ";
+  var alerts = document.getElementById("alerts");
+  alerts.innerHTML = message;
+  if(!alerts.classList.contains("message")){
+     alerts.classList.add("message");
+  }
+}
+/* User Manually empty cart */
+function emptyCart() {
+    //remove cart session storage object & refresh cart totals
+    if(sessionStorage.getItem('cart')){
+        sessionStorage.removeItem('cart');
+        updateCartTotal();
+      //clear message and remove class style
+      var alerts = document.getElementById("alerts");
+      alerts.innerHTML = "";
+      if(alerts.classList.contains("message")){
+          alerts.classList.remove("message");
+      }
+    }
+}
+
+        </script>
+      
+      
+  
+  
+  
+  
+     
+         
+   
+       </body>
+   
+      </html>
+     
+        
+        
+     
